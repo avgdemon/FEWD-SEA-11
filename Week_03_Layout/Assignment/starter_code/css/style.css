@@ -115,7 +115,7 @@ a:link, a:visited a:hover, a:active {
 
 .posts {
   float: left;
-  width: 70%;
+  width: 78%;
   margin-right: 2%;
   /*background-color: grey;*/
 }
@@ -172,9 +172,44 @@ a:link, a:visited a:hover, a:active {
 
 .sidebar {
   float: left;
-  width: 28%;
-  background-color: lightblue;
+  width: 20%;
+  /*background-color: lightblue;*/
   height: 600px;
+  color: #033048;
+  padding: 5px 2px;  
+}
+
+.sidebar h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.sidebar ul{
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.sidebar ul li{
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.sidebar p{
+  font-size: 21px;
+  font-weight: 300;
+}
+
+.read-more2 {
+  float: left;
+  font-size: 21px;
+  font-weight: 600;
+  color: #033048;
+  margin-top: 10px;
+}
+
+.ad{
+  margin-top: 20px; 
+  display: block;
 }
 
 .linkbar {
