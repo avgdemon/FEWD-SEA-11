@@ -131,16 +131,44 @@ a:link, a:visited a:hover, a:active {
 }
 
 .image {
-  width: ;
+  width: 100%;
+  height: auto;
   margin-top: 10px;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
 }
 
 .para p {
   margin-top: 15px;
   font-size: 20px;
   font-weight: 300;
-  color: #033048 ;
+  color: #121212 ;
 }
+
+.para p::first-letter { 
+    float: left;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 65px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-left: 3px;
+    color: #121212;
+}
+
+.read-more {
+  float: right;
+  font-size: 20px;
+  font-weight: 600;
+  color: #033048;
+  margin-top: 20px;
+
+}
+
+
 
 .sidebar {
   float: left;
