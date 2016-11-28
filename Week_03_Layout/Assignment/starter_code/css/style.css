@@ -117,8 +117,29 @@ a:link, a:visited a:hover, a:active {
   float: left;
   width: 70%;
   margin-right: 2%;
-  background-color: grey;
-  height: 600px;
+  /*background-color: grey;*/
+}
+
+.post_n {
+
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: 600;
+  color: #033048;
+}
+
+.image {
+  width: ;
+  margin-top: 10px;
+}
+
+.para p {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #033048 ;
 }
 
 .sidebar {
